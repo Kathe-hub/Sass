@@ -1,0 +1,37 @@
+
+.card {
+    @extend .bg-strongpink;
+    text-align: center;
+}
+
+.card-img-top {
+    padding: 15px 15px 0px 15px;
+    border-radius: 10%;
+    border: solid, 1px, #000;
+}
+
+.card-body {
+    @extend .text-sweetpink;
+    font-size: 20px;
+}
+
+.card-title {
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+}
+
+.btn {
+    @extend .bg-sweetpink;
+    @extend .text-white;
+}
+
+
+
+@import "bootstrap.scss";
+
+
+
+
+
+
